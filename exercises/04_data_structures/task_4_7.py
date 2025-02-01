@@ -16,3 +16,7 @@
 """
 
 mac = "AAAA:BBBB:CCCC"
+
+result = "{:b}".format(int(mac.replace(":", ""),16))
+
+print(result)
